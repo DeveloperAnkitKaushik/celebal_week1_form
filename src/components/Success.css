@@ -1,0 +1,51 @@
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .success {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .success h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .success p {
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .success .details {
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  
+  .success .details p {
+    margin: 0.5rem 0;
+  }
+  
+  .success button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .success button:hover {
+    background-color: #0056b3;
+  }
+  
